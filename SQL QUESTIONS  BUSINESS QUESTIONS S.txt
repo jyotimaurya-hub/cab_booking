@@ -1,0 +1,128 @@
+SQL QUESTIONS / BUSINESS QUESTIONS SOLVED
+
+This project contains practical SQL questions covering basic to advanced data analysis concepts.
+
+============================================================
+BASIC ANALYSIS
+==============
+
+1. Find the total number of rides for each driver.
+2. Find the total number of incomplete rides for each driver.
+3. Calculate the total fare earned by each driver from completed rides.
+4. Calculate the fare associated with incomplete rides for each driver.
+5. Find the Top 3 highest-earning drivers based on completed rides.
+6. Analyze the number of rides based on ride status.
+7. Find drivers who are not currently active.
+8. Find drivers with a rating greater than 4.5.
+9. Find all customers from Delhi.
+10. Find rides where the fare is greater than 300.
+11. Find rides where the fare is less than 300.
+12. Find the highest fare among all rides.
+13. Calculate the average rating of all drivers.
+14. Find all completed rides.
+15. Find the number of customers in each city.
+16. Find the driver with the highest rating.
+
+============================================================
+JOIN-BASED QUESTIONS
+====================
+
+17. Display ride details along with the customer name and driver name using INNER JOIN.
+18. Display all customers along with their rides, including customers who have not booked any ride.
+19. Display all drivers along with their ride counts, including drivers with zero rides.
+20. Find customers who have never booked a ride using LEFT JOIN and IS NULL.
+21. Find rides where the driver and customer belong to the same city.
+
+============================================================
+SUBQUERY QUESTIONS
+==================
+
+22. Find drivers whose total trips are greater than the average total trips of all drivers.
+23. Find customers whose city is either Delhi or Noida using a subquery.
+24. Find the complete details of the top-earning driver using a subquery.
+25. Find the ride(s) with the highest fare for each particular customer using a correlated subquery.
+
+============================================================
+UNION / UNION ALL QUESTIONS
+===========================
+
+26. Create a combined list of customers and drivers with a role column identifying whether the person is a customer or driver.
+27. Combine rides with different statuses using UNION ALL.
+28. Find cities that appear either in the customer table or the driver table using UNION.
+
+============================================================
+WINDOW FUNCTION QUESTIONS
+=========================
+
+29. Rank drivers based on their total earnings using RANK().
+30. Calculate the running total of fare for each driver ordered by ride date.
+31. For each ride, calculate the driver's average fare and the difference between the ride fare and the driver's average fare.
+32. Find the most recent ride for each customer using ROW_NUMBER().
+
+============================================================
+CTE QUESTIONS
+=============
+
+33. Create a CTE to calculate each driver's:
+
+    * Total earnings
+    * Total completed rides
+
+    Then display the driver details along with these metrics.
+
+34. Using multiple CTEs, compare:
+
+    * City-wise ride demand
+    * Number of active drivers available in each city
+
+============================================================
+CASE STATEMENT / DERIVED METRICS
+================================
+
+35. Categorize rides into fare tiers:
+
+    * Low
+    * Medium
+    * High
+
+36. Classify rides into Low and High fare categories.
+
+37. Create a driver performance tag based on rating and total trips:
+
+    * Top Performer
+    * Good
+    * Need Improvement
+
+============================================================
+SQL CONCEPTS PRACTICED
+======================
+
++-----------------------+----------------------------------------------+
+| Category              | Concepts                                     |
++-----------------------+----------------------------------------------+
+| Basic SQL             | SELECT, WHERE, GROUP BY, ORDER BY, LIMIT    |
+| Aggregations          | COUNT(), SUM(), AVG(), MAX()                |
+| Joins                 | INNER JOIN, LEFT JOIN                       |
+| Subqueries            | Single-row, Multi-row, Correlated           |
+| Set Operations        | UNION, UNION ALL                             |
+| Window Functions      | RANK(), ROW_NUMBER(), SUM() OVER(),         |
+|                       | AVG() OVER()                                 |
+| CTEs                  | Single CTE, Multiple CTEs                   |
+| Conditional Logic     | CASE WHEN                                    |
+| Filtering             | IN, IS NULL, Comparison Operators           |
+| Business Analysis     | Revenue, Ride Demand, Driver Performance    |
++-----------------------+----------------------------------------------+
+
+============================================================
+BUSINESS AREAS COVERED
+======================
+
+* Driver Performance Analysis
+* Customer Analysis
+* Ride & Revenue Analysis
+* City-wise Demand Analysis
+* Driver Earnings Analysis
+* Ride Status Analysis
+* Fare Analysis
+* Customer Ride Behavior
+* Operational Performance
